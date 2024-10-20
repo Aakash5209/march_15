@@ -1,0 +1,36 @@
+.modal-conatiner{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.btnOPen{
+    /* border: none; */
+    cursor: pointer;
+}
+
+.model-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.model{
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px ;
+    border-radius: 5px;
+    background: grey;
+}
+
+.btnClose{
+    cursor: pointer;
+
+
+}
